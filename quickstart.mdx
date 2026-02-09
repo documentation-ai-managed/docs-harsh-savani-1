@@ -1,0 +1,139 @@
+---
+title: Quickstart Guide
+description: Get up and running with Harsh Savani by setting up your account and creating your first documentation space in just a few minutes.
+---
+
+<Callout kind="info" title="Prerequisites">
+You need a Google account to sign up. If you don't have one, create it at accounts.google.com.
+</Callout>
+
+## Sign Up and Create Your First Space
+
+Follow these steps to get started with Harsh Savani. You'll have your first documentation space ready in under 5 minutes.
+
+<Steps>
+  <Step title="Sign Up with Google" icon="user-plus">
+    Navigate to the Harsh Savani sign-in page and click the Google sign-in button. Grant the necessary permissions for account access and documentation management.
+    
+    You'll be redirected to your new dashboard.
+  </Step>
+  
+  <Step title="Create a New Documentation Space" icon="plus">
+    Click the `New Space` button in the top-right corner of the dashboard.
+    
+    Enter a name like "My Project Docs" and select a workspace. Choose the default template or start blank.
+    
+````jsx
+// Example space configuration (appears in UI)
+{
+  name: "My Project Docs",
+  description: "Central hub for project documentation",
+  visibility: "private"
+}
+````
+  </Step>
+  
+  <Step title="Add Your First Document" icon="file-plus">
+    Inside your new space, click `New Document`.
+    
+    Give it a title like "Getting Started" and start editing in the markdown editor. Use the sidebar to add sections.
+  </Step>
+  
+  <Step title="Organize and Publish" icon="save">
+    Drag documents in the sidebar to organize them. Click `Publish` to make your space live.
+    
+    Share the space URL with your team.
+  </Step>
+</Steps>
+
+## Basic Navigation Tour
+
+Harsh Savani's interface is intuitive. Use these tabs to explore key areas.
+
+<Tabs>
+  <Tab title="Dashboard" icon="layout">
+    Your home screen shows recent spaces, quick actions, and activity feed.
+    
+    Key elements:
+    
+    - Top bar: Search, notifications, profile
+    - Sidebar: Spaces list
+    - Main area: Recent documents and previews
+  </Tab>
+  
+  <Tab title="Editor" icon="edit-3">
+    The markdown editor supports live preview, syntax highlighting, and version history.
+    
+    Try this sample document content:
+    
+````mdx
+# Welcome Document
+
+## Overview
+
+This is your first doc.
+
+- List item 1
+- List item 2
+````
+  </Tab>
+  
+  <Tab title="Settings" icon="settings">
+    Manage space permissions, themes, and integrations.
+    
+    <Callout kind="tip">
+      Enable version history for automatic backups.
+    </Callout>
+  </Tab>
+</Tabs>
+
+<CodeGroup tabs="Markdown,HTML">
+```markdown
+# Sample Document
+
+## Features
+
+- Real-time collaboration
+- MDX support
+- Custom themes
+```
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rendered Doc</title>
+</head>
+<body>
+  <h1>Sample Document</h1>
+  <h2>Features</h2>
+  <ul>
+    <li>Real-time collaboration</li>
+    <li>MDX support</li>
+    <li>Custom themes</li>
+  </ul>
+</body>
+</html>
+```
+</CodeGroup>
+
+## Next Steps
+
+Explore more features to level up your documentation workflow.
+
+<Columns cols={3}>
+  <Card title="Advanced Editing" icon="edit-3" href="/introduction">
+    Dive into MDX components and custom layouts.
+  </Card>
+  
+  <Card title="Collaboration" icon="users" href="/authentication">
+    Invite team members and manage permissions.
+  </Card>
+  
+  <Card title="Integrations" icon="plug" href="/changelog">
+    Connect with GitHub, Slack, and more.
+  </Card>
+</Columns>
+
+<Callout kind="tip" title="Ready to Customize?">
+Your first space is live! Edit documents, add images, and organize sections to match your project needs. Check the [dashboard](https://dashboard.example.com) for updates.
+</Callout>

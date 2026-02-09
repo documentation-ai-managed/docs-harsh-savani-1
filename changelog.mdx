@@ -1,0 +1,142 @@
+---
+title: Changelog
+description: Stay updated with the latest releases, new features, and improvements in Harsh Savani.
+---
+
+## Latest Releases
+
+Stay informed about new features, bug fixes, and improvements. Harsh Savani releases follow semantic versioning. Check the [GitHub repository](https://github.com/example/harsh-savani) for full details and source code.
+
+<Callout kind="info">
+Subscribe to our RSS feed or GitHub notifications to get release updates automatically.
+</Callout>
+
+<Update label="2024-10-15" description="v1.2.0" tags={["feature", "improvement"]}>
+
+## New Features
+
+- Added real-time collaboration for shared documentation spaces
+- Introduced AI-powered content suggestions using Gemini integration
+- New customizable themes with brand color support (`#1A73E8` default)
+
+## Improvements
+
+- Enhanced search with fuzzy matching for better results
+- Optimized performance for large documentation sites (>50 pages)
+
+## Bug Fixes
+
+- Fixed authentication issues with Google sign-in flows
+- Resolved markdown rendering errors in code blocks
+
+</Update>
+
+<Update label="2024-09-20" description="v1.1.0" tags={["feature", "bugfix"]}>
+
+## New Features
+
+- Integrated Gemini chat for interactive documentation assistance
+- Added export options to PDF and Markdown formats
+
+## Bug Fixes
+
+- Corrected responsive layout issues on mobile devices
+- Fixed broken links in navigation menus
+
+</Update>
+
+<Update label="2024-08-10" description="v1.0.0" tags={["feature", "breaking"]}>
+
+## Initial Release
+
+- Core documentation management system
+- MDX support with custom components
+- Google authentication and chat history
+
+## Breaking Changes
+
+- Updated configuration format for themes
+
+</Update>
+
+## Upgrading to the Latest Version
+
+Follow these steps to upgrade Harsh Savani. Always back up your data first.
+
+<Steps>
+  <Step title="Check Current Version" icon="package">
+
+    Run the version check command:
+
+````bash
+npx harsh-savani --version
+````
+
+  </Step>
+  <Step title="Update Package" icon="download">
+
+    <Tabs>
+      <Tab title="npm" icon="npm">
+````bash
+npm install harsh-savani@latest
+````
+      </Tab>
+      <Tab title="yarn" icon="yarn">
+````bash
+yarn add harsh-savani@latest
+````
+      </Tab>
+    </Tabs>
+
+  </Step>
+  <Step title="Restart Server" icon="refresh-cw">
+
+    Restart your development server:
+
+````bash
+npm run dev
+````
+
+  </Step>
+</Steps>
+
+<Callout kind="tip">
+After upgrading, review the [migration guide](https://github.com/example/harsh-savani/blob/main/MIGRATION.md) for any breaking changes.
+</Callout>
+
+## Upcoming Changes
+
+Preview what's coming next in Harsh Savani.
+
+<Columns cols={2}>
+  <Card title="v1.3.0" icon="zap" horizontal>
+    Enhanced AI tools and webhook support.
+  </Card>
+  <Card title="v2.0.0" icon="rocket" horizontal>
+    Full rewrite with Next.js 15 and advanced search.
+  </Card>
+</Columns>
+
+<Expandable title="Detailed Roadmap" default-open="false">
+
+| Milestone | Features | Target Date |
+|-----------|----------|-------------|
+| Short-term | Webhook integrations, custom domains | Q4 2024 |
+| Medium-term | Multi-language support, analytics | Q1 2025 |
+| Long-term | Enterprise features, SSO | Q2 2025 |
+
+</Expandable>
+
+## Resources
+
+<Columns cols={3}>
+  <Card title="GitHub Releases" icon="github" href="https://github.com/example/harsh-savani/releases">
+    Full changelogs and downloads.
+  </Card>
+  <Card title="Migration Guide" icon="book-open" href="https://github.com/example/harsh-savani/blob/main/MIGRATION.md">
+    Step-by-step upgrade instructions.
+  </Card>
+  <Card title="Report Issues" icon="bug" href="https://github.com/example/harsh-savani/issues/new">
+    Help us improve by reporting bugs.
+  </Card>
+</Columns>
